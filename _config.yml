@@ -1,0 +1,31 @@
+# META
+# _data/settings.yml
+
+# PORT (default: 4000)
+# port: 8080
+
+# ENGINE 
+## (jekyll build, jekyll serve)
+# ++styles.scss ---frontmatter!
+sass:
+  sass_dir: src/scss
+  # style: expanded 
+  style: compressed 
+
+collections:
+  posts:
+    output: false
+
+exclude: [ 
+  node_modules, gulpfile.js, npm-debug.log, package.json, package-lock.json, desktop.ini, README.md,
+
+  # /html/,
+  # /html/index.html,
+
+  # /assets/,
+]
+
+
+# PRODUCTION
+# baseurl: /
+# url: https://sub.domain.tld

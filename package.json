@@ -1,0 +1,22 @@
+{
+  "name": "jekyll-start-min-v1.0.0",
+  "version": "1.0.0",
+  "description": "jekyll-start-min",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve",
+    "serve": "jekyll serve",
+    "build": "jekyll build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "jquery": "^3.7.1"
+  }
+}

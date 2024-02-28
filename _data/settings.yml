@@ -1,0 +1,14 @@
+meta:
+  site-title: 'sub.domain.tld'
+  site-author: 'author'
+  site-description: 'description'
+  site-keywords: 'keywords'
+  # ' | ' ' - ' en' &#8211; ' em' &#8212; '
+  title_separator: ' | '
+  HEAD:
+    bs-css-cdn: true
+    bs-css-src: true
+
+  BODY:
+    bs-js-cdn: true
+    bs-js-src: true

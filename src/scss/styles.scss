@@ -1,0 +1,12 @@
+---
+---
+
+// THEME
+
+@import "theme/defaults/basics";
+@import "theme/defaults/utilities";
+
+.element {
+  color: var(--theme-element-color);//$primary;
+  background-color: var(--theme-element-bg);//$white;
+}

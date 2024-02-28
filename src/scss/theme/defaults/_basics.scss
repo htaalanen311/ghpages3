@@ -1,0 +1,34 @@
+// Selection Styling
+::selection {
+  background: #ccccff;
+  color: #fff ;
+}
+img::selection {
+  background: transparent;
+}
+body {
+  -webkit-tap-highlight-color: #ccccff;
+}
+
+// Links
+a:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(#ccccff,.25);
+}
+
+// Custom footer bottom
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 5rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // height: 5rem;
+  // line-height: 3rem;
+  padding: 2rem;
+}
